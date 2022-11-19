@@ -12,7 +12,7 @@ struct Node{
 
 Node *insertEnd(Node *head,int x){
     Node *temp=new Node(x);
-    if(head==NULL)return temp; //  if null we re returning that only element
+    if(head==NULL)return temp; //  if head is  null we re returning that only element
     Node *curr=head;
     while(curr->next!=NULL){
         curr=curr->next; // interating till last node so that we can add at last 
